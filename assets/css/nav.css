@@ -91,14 +91,14 @@ nav{
     }
 }
 
-@media screen and (min-width: 576px) { /*Tela Mobile2*/
-    /* .hiddenP{
-        display: initial;
-    } */
-}
-
-@media screen and (min-width: 992px) { /*Tela Tablet*/
+@media screen and (min-width: 600px) { /*Tela Mobile2*/
     .hidden{
         display: initial;
     }
+}
+
+@media screen and (min-width: 992px) { /*Tela Tablet*/
+    /* .hidden{
+        display: initial;
+    } */
 }
