@@ -8,27 +8,22 @@ nav{
 
 .nav{
     display: flex;
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
-    background-color: var(--color-amarelo02);
-    padding: 0 1em;
+    box-shadow: 0px 4px 20px var(--color-azul-escuro02);
+    background-color: var(--color-cinza-claro02);
+    padding: 0 calc(1rem + 1vw);
 }
-.coluna-1{
+.coluna-1, .coluna-2{
     display: flex;
     flex-direction: row;
     align-self: center;
-    /* width: 50%; */
-    /* background-color: #9a9292; */
     gap: 0.5rem;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
 }
-.coluna-2{
-    /* width: 50%; */
-    display: flex;
-    flex: 1;
+.coluna-1{
+    flex: 4;
 }
 .col-interna-1{
-    /* width: 100%; */
     flex: 1;
     display: flex;
     gap: 0.5rem;
@@ -43,8 +38,7 @@ nav{
     background-color: var(--color-branco);
 }
 .col-interna-2{
-    /* width: 100%; */
-    flex: 1;
+    flex: 2;
     display: flex;
     gap: 0.5rem;
     align-self: center;
@@ -85,23 +79,22 @@ nav{
 }
 
 @media screen and (min-width: 0px) { /*Tela Mobile*/
-    .hiddenP, .hidden{
+    /* .hiddenP{
+        display: none;
+    } */
+    .hidden{
         display: none;
     }
 }
 
 @media screen and (min-width: 576px) { /*Tela Mobile2*/
-    .hiddenP{
+    /* .hiddenP{
         display: initial;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px) { /*Tela Tablet*/
     .hidden{
         display: initial;
     }
-}
-
-@media screen and (min-width: 1200px) { /*Tela Desktop*/
-
 }

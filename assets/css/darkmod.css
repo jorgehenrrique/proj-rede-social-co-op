@@ -6,7 +6,7 @@
     }
     .nav{
         background-color: var(--color-roxo-escuro);
-        box-shadow: 0px 8px 12px var(--color-amarelo);
+        box-shadow: 0px 4px 20px var(--color-amarelo);
     }
     .icone{
         background-color: var(--color-amarelo);
