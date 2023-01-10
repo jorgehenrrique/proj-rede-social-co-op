@@ -16,20 +16,22 @@ nav{
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 50%;
+    /* width: 50%; */
     /* background-color: #9a9292; */
-    gap: 0.8rem;
+    gap: 0.5rem;
     align-items: center;
+    flex: 1;
 }
 .coluna-2{
-    width: 50%;
+    /* width: 50%; */
     display: flex;
+    flex: 1;
 }
 .col-interna-1{
-    width: 50%;
-
+    /* width: 100%; */
+    flex: 1;
     display: flex;
-    gap: 0.8rem;
+    gap: 0.5rem;
     align-self: center;
 }
 .buscar{
@@ -41,9 +43,10 @@ nav{
     background-color: var(--color-branco);
 }
 .col-interna-2{
-    width: 50%;
+    /* width: 100%; */
+    flex: 1;
     display: flex;
-    gap: 0.8rem;
+    gap: 0.5rem;
     align-self: center;
     justify-content: flex-end;
 }
@@ -58,12 +61,47 @@ nav{
     border: var(--color-vermelho-claro) solid 1px;
     border-radius: var(--border-radius);
 }
+.noti-ico{
+    position: relative;
+}
 .notificacao{
     width: 10px;
     height: 10px;
     background-color: var(--color-vermelho-claro);
     border-radius: 10px;
-    position: relative;
-    right: -18px;
-    bottom: 24px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+@media screen and (max-width: 500px){ 
+    button.btn-postar{ /*botao postar*/
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+    span.coments{ /*comentarios*/
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 0px) { /*Tela Mobile*/
+    .hiddenP, .hidden{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) { /*Tela Mobile2*/
+    .hiddenP{
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 992px) { /*Tela Tablet*/
+    .hidden{
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 1200px) { /*Tela Desktop*/
+
 }
