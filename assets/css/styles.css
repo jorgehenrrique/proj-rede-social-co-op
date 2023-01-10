@@ -4,6 +4,7 @@
 @import url("./variaveis.css");
 @import url("./rolagem.css");
 @import url("./darkmod.css");
+@import url("./asideesquerda.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url("../fontes/Chivo_Mono/ChivoMono-VariableFont_wght.ttf");
@@ -16,6 +17,10 @@ html, body{
 body{
     margin: 0;
     position: relative;
+}
+
+main{
+    margin: 0 calc(1rem + 2vw);
 }
 
 .bac{

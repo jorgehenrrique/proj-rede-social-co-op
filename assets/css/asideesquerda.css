@@ -1,0 +1,35 @@
+.amigos{
+    border-radius: var(--border-radius);
+    padding: 16px 0;
+}
+
+.profile_all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.profile_group{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.image_profile img{
+    width: 48px;
+    height: 48px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.botao_p{
+    background-image: url("../icon/components/User-more.png");
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.name_art{
+    display: flex;
+    flex-direction: column;
+}
