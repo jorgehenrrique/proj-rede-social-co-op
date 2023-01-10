@@ -8,18 +8,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url("../fontes/Chivo_Mono/ChivoMono-VariableFont_wght.ttf");
 
-/* html, body{
+html, body{
     scroll-behavior: smooth;
     font-family: 'Chivo Mono', monospace;
-} */
+}
 
 body{
     margin: 0;
-    /* position: relative; */
+    position: relative;
 }
 
-.perfil, .main, .amigos{
-    background-color: aqua;
+.bac{
+    background-color: var(--color-cinza-claro);
+}
+
+.perfil{
+    background-color: var(--color-branco);
+}
+.main{
+    background-color: var(--color-branco);
+}
+.amigos{
+    background-color: var(--color-branco);
 }
 
 .parecidos, .perfil{
@@ -37,3 +47,8 @@ body{
     }
 }
 
+.img-top{ /* Botao de subir ao topo */
+    position: fixed;
+    right: 40px;
+    bottom: 24px;
+}

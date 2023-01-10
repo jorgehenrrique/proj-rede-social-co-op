@@ -1,8 +1,8 @@
 /* || DarkMode Sistem */
 @media (prefers-color-scheme: dark) {
-    html, body { 
-      /* color: var(--color-news-cyberblue); */
-      background: var(--color-preto);
+    html, body.bac{ 
+        /* color: var(--color-news-cyberblue); */
+        background: var(--color-preto);
     }
     .nav{
         background-color: var(--color-roxo-escuro);
@@ -16,5 +16,15 @@
     }
     .notificacao{
         background-color: var(--color-magenta-neon);
+    }
+
+    div.perfil{
+        background-color: var(--color-roxo-claro);
+    }
+    div.main{
+        background-color: var(--color-roxo-claro);
+    }
+    div.amigos{
+        background-color: var(--color-roxo-claro);
     }
 }
