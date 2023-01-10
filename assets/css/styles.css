@@ -1,0 +1,38 @@
+@import url("./reset.css");
+@import url("./grid.css");
+@import url("./nav.css");
+@import url("./variaveis.css");
+@import url("./rolagem.css");
+@import url("./darkmod.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("../fontes/Chivo_Mono/ChivoMono-VariableFont_wght.ttf");
+
+/* html, body{
+    scroll-behavior: smooth;
+    font-family: 'Chivo Mono', monospace;
+} */
+
+body{
+    margin: 0;
+}
+
+.perfil, .main, .amigos{
+    background-color: aqua;
+}
+
+.parecidos, .perfil{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .perfil{
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .parecidos{
+        display: initial;
+    }
+}
