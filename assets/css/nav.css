@@ -53,7 +53,7 @@ nav{
     color: var(--color-vermelho-claro);
     font-family: 'Anton', sans-serif;
 }
-.btn{ /* botoes */
+.btn_amarelo{ /* botoes */
     width: 48px;
     height: 48px;
     border: var(--color-vermelho-claro) solid 1px;
