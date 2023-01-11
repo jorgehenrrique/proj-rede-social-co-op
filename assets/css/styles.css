@@ -4,7 +4,8 @@
 @import url("./variaveis.css");
 @import url("./rolagem.css");
 @import url("./darkmod.css");
-@import url("./asideesquerda.css");
+@import url("./asideEsquerda.css");
+@import url("./asideDireita.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url("../fontes/Chivo_Mono/ChivoMono-VariableFont_wght.ttf");
@@ -33,7 +34,10 @@ main{
 .main{
     background-color: var(--color-branco);
 }
-.amigos{
+.profile_all{
+    background-color: var(--color-branco);
+}
+.em-alta{
     background-color: var(--color-branco);
 }
 

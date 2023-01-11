@@ -1,41 +1,33 @@
-.amigos{
-    border-radius: var(--border-radius);
-    padding: 16px 0;
-}
-
-.profile_all{
+/* || Aside esquerda */
+.aside-esquerda{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-}
-.profile_group{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-}
-.image_profile img{
-    width: 48px;
-    height: 48px;
-    border-radius: var(--border-radius);
+    width: 100%;
+
+    min-width: 200px;
+    /* max-height: 850px; */
+    height: fit-content;
+    border-radius: var(--border-radios);
     overflow: hidden;
 }
-.botao_p{
-    background-image: url("../icon/components/User-more.png");
-    width: 26px;
-    height: 26px;
-    background-position: center;
-    background-size: contain;
+.back-img{ /*Background perfil*/
+    width: 100%;
+    height: 100px;
+    background-color: #949281;
+    background-image: url("../img/img-scrol/bkg2.jpg.webp");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.name_art{
-    display: flex;
-    flex-direction: column;
-}
-
-h2.l-friends{
-    font-size: 23px;
-    margin-top: 16px;
-    text-align: center;
+.profile-img-master{ /*Foto perfil*/
+    position: relative;
+    bottom: 50px;
+    background-color: var(--color-bkg-yellow);
+    border: var(--color-bkg-orange) 2px solid;
+    width: 128px;/*Tamanho controlado no html, pra evitar ghost reload*/
+    height: 128px;
+    border-radius: 10px;
+    z-index: 0;
+    /* margin-left: 50px; */
 }

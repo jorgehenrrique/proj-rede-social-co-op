@@ -24,7 +24,10 @@
     div.main{
         background-color: var(--color-roxo-claro);
     }
-    div.amigos{
+    div.profile_all{
+        background-color: var(--color-roxo-claro);
+    }
+    section.em-alta{
         background-color: var(--color-roxo-claro);
     }
 }
