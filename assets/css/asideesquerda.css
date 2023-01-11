@@ -88,7 +88,7 @@ hr.style {
 /*DAQUI PARA BAIXO É O QUE FALTA FAZER E COLOCAR ESSAS CLASSES, OU ALTERALAS*/
 /* ESSA É A PARTE A BAIXO DA LINHA <hr> */
 
-.options{ /*COLOCA A CLASSE: config , AQUI PARA VER COMO FICA*/
+.config{ /*COLOCA A CLASSE: config , AQUI PARA VER COMO FICA*/
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -97,46 +97,22 @@ hr.style {
     gap: 8px;
     margin-bottom: 25px;
 }
-.conf-options{
+.config_box{
     /* height: 48px; */
     display: flex;
-}
-div.feed{
-    background-image: url("../icon/components/Vector-6.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 48px;
+    gap: 8px;
+    background-color: var(--color-cinza-claro);
     height: 48px;
+    border-radius: var(--border-radius);
+    align-items: center;
+    padding-left: 26px;
+    transition: all .5s;
 }
-div.coneccoes{
-    background-image: url("../icon/components/Vector-5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 48px;
-    height: 48px;
+
+.config_box:hover{
+    background-color: var(--color-amarelo-claro);
+    transition: all .5s;
 }
-div.news{
-    background-image: url("../icon/components/Vector-7.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 48px;
-    height: 48px;
-}
-div.eventos{
-    background-image: url("../icon/components/Vector-8.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 48px;
-    height: 48px;
-}
-div.conf{
-    background-image: url("../icon/components/Vector-1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 48px;
-    height: 48px;
-}
-span.span-options{
-    color: var(--color-cinza-escuro);
-    align-self: center;
-}
+
+
+
