@@ -42,6 +42,15 @@ h2.l-friends{
     margin-top: 16px;
     text-align: center;
 }
+h6.f-name{ /*Reutilizado nos posts*/
+    font-size: 19px;
+    font-weight: 700;
+}
+.p-status{ /*Reutilizado nos posts*/
+    font-size: 12px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
 
 /* || section Em alta */
 .em-alta{
@@ -64,6 +73,6 @@ h2.l-friends{
 }
 .padd{
     padding: 0 16px;
-    /* width: 100%; */
+    width: 90%;
     margin-bottom: 16px;
 }

@@ -41,19 +41,21 @@ main{
     background-color: var(--color-branco);
 }
 
-.parecidos, .perfil{
-    display: none;
-}
 
 /* Media para ocultar as colunas de perfil e amigos, ao diminuir a tela */
+@media screen and (min-width: 0px) { /*Tela Mobile*/
+    div.parecidos, div.perfil{
+        display: none;
+    }
+}
 @media screen and (min-width: 768px){
-    .perfil{
-        display: initial;
+    div.perfil{
+        display: inherit;
     }
 }
 @media screen and (min-width: 992px){
-    .parecidos{
-        display: initial;
+    div.parecidos{
+        display: inherit;
     }
 }
 
