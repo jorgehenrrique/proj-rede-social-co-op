@@ -1,5 +1,6 @@
+
 /* || Aside esquerda */
-.aside-esquerda{
+main div.aside-esquerda{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,8 +9,9 @@
     min-width: 200px;
     /* max-height: 850px; */
     height: fit-content;
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
     overflow: hidden;
+
 }
 .back-img{ /*Background perfil*/
     width: 100%;
@@ -23,11 +25,118 @@
 .profile-img-master{ /*Foto perfil*/
     position: relative;
     bottom: 50px;
-    background-color: var(--color-bkg-yellow);
-    border: var(--color-bkg-orange) 2px solid;
+    background-color: var(--color-amarelo);
+    border: var(--color-vermelho-claro) 2px solid;
     width: 128px;/*Tamanho controlado no html, pra evitar ghost reload*/
     height: 128px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     z-index: 0;
-    /* margin-left: 50px; */
+    /* left: 33.33%; */
+}
+
+h1.name{
+    margin-top: -33px;
+    font-size: 28px;
+    font-weight: 700;
+}
+p.name{ /*Reutilizado na main, posts*/
+    font-size: 16px;
+    font-weight: 400;
+}
+.staus-p-sub{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d4d;
+    padding: 32px 16px;
+    text-align: center;
+}
+.subs{
+    width: 80%;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+.status{
+    background-color: var(--color-amarelo-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    flex: 1;
+    border-radius: 10px;
+}
+.status-p{
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--color-cinza-escuro);
+}
+.status-p-sub{
+    color: var(--color-cinza-escuro);
+}
+
+hr.style {
+    width: 90%;
+    margin: 24px 0;
+    border-style: inset;
+    /* border-width: 1px; */
+    border: var(--color-vermelho-claro) 1px solid;
+}
+
+/*DAQUI PARA BAIXO É O QUE FALTA FAZER E COLOCAR ESSAS CLASSES, OU ALTERALAS*/
+/* ESSA É A PARTE A BAIXO DA LINHA <hr> */
+
+.options{ /*COLOCA A CLASSE: config , AQUI PARA VER COMO FICA*/
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+    width: 80%;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+.conf-options{
+    /* height: 48px; */
+    display: flex;
+}
+div.feed{
+    background-image: url("../icon/components/Vector-6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+div.coneccoes{
+    background-image: url("../icon/components/Vector-5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+div.news{
+    background-image: url("../icon/components/Vector-7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+div.eventos{
+    background-image: url("../icon/components/Vector-8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+div.conf{
+    background-image: url("../icon/components/Vector-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+}
+span.span-options{
+    color: var(--color-cinza-escuro);
+    align-self: center;
 }

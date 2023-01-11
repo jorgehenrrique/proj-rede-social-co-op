@@ -6,6 +6,7 @@
 @import url("./darkmod.css");
 @import url("./asideEsquerda.css");
 @import url("./asideDireita.css");
+@import url("./main.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url("../fontes/Chivo_Mono/ChivoMono-VariableFont_wght.ttf");
@@ -44,13 +45,13 @@ main{
 
 /* Media para ocultar as colunas de perfil e amigos, ao diminuir a tela */
 @media screen and (min-width: 0px) { /*Tela Mobile*/
-    div.parecidos, div.perfil{
+    div.parecidos, main div.perfil{
         display: none;
     }
 }
 @media screen and (min-width: 768px){
-    div.perfil{
-        display: inherit;
+    main div.perfil{
+        display: flex;
     }
 }
 @media screen and (min-width: 992px){

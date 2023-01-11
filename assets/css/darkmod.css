@@ -30,4 +30,10 @@
     section.em-alta{
         background-color: var(--color-roxo-claro);
     }
+    div.perfil .profile-img-master{ /*Foto perfil*/
+        border: var(--color-verde-neon) 2px solid;
+    }
+    div hr.style {
+        border: var(--color-verde-neon) 1px solid;
+    }
 }
