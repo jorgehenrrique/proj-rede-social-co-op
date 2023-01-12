@@ -1,0 +1,94 @@
+a:link, a:visited {
+    color: #e437d3;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: var(--color-verde-neon);
+    text-decoration: line-through;
+}
+
+body div.notificacao:hover{
+    background-color: var(--color-vermelho-claro);
+}
+/* button.img-bkg:active{
+    background-color: var(--color-amarelo);
+} */
+button.img-bkg:hover{
+    cursor: pointer;
+    border: 2px solid var(--color-cinza-claro02);
+    transition: .2s;
+    background-color: var(--color-amarelo);
+}
+.img-bkg{
+    background-color: var(--color-roxo-claro);
+}
+button.img-bkg{
+    border: 1px solid var(--color-vermelho-claro);
+}
+/* || input style */
+input::placeholder, textarea::placeholder{
+    color: var(--color-bkg-orange);
+    padding-left: 14px;
+}
+input:focus{
+    border: 1px solid var(--color-vermelho-claro);
+}
+.conf-options, .friend-adc{
+    border-radius: var(--border-radius);
+    background-color: var(--color-roxo-claro);
+    transition: .2s;
+}
+.conf-options:hover, .friend-adc:hover{
+    background-color: var(--color-amarelo);
+    transition: .2s;
+    cursor: pointer;
+}
+.conf-options:active, .friend-adc:active{
+    background-color: var(--color-vermelho-claro);
+}
+
+/* || Botton aside direita E guia de postes*/
+.buscar{
+    border-radius: var(--border-radius);
+    background-color: var(--color-amarelo-claro);
+    border: 1px solid var(--color-vermelho-claro);
+    /* height: 48px; */
+    transition: .2s;
+}
+.buscar:hover{
+    background-color: var(--color-amarelo);
+    border: 1px solid var(--color-cinza-claro02);
+    transition: .2s;
+    cursor: pointer;
+}
+.buscar:active{
+    background-color: var(--color-vermelho-claro);
+    transition: .2s;
+}
+
+/* || Botao postar */
+.btn-postar{
+    background-color: var(--color-verde-neon);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-vermelho-claro);
+}
+.btn-postar:hover{
+    background-color: var(--color-cinza-claro02);
+    color: var(--color-verde-neon);
+    transition: .2s;
+    cursor: pointer;
+}
+.btn-postar:active{
+    background-color: var(--color-cinza-escuro);
+}
+
+/* Botoes da nav */
+.btn_amarelo:hover{
+    background-color: var(--color-verde-neon);
+    transition: all .2s;
+}
+.btn_amarelo:active{
+    background-color: var(--color-vermelho-claro);
+    transition: all .2s;
+}

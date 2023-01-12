@@ -4,14 +4,17 @@ div.amigos{
     display: flex;
     flex-direction: column;
     gap: 28px;
+    height: fit-content;
 }
 
 .profile_all{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
     gap: 24px;
     border-radius: var(--border-radius);
+    height: fit-content;
 }
 .profile_group{
     display: flex;
@@ -61,6 +64,7 @@ h6.f-name{ /*Reutilizado nos posts*/
     padding: 0 16px;
     border-radius: var(--border-radius);
     padding-bottom: 16px;
+    height: fit-content;
 }
 .article-font{
     font-size: 16px;

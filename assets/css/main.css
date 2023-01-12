@@ -1,28 +1,20 @@
-div.main{
-    border-radius: var(--border-radius);
-}
-
 /* || Barra de imagens em scroll */
 .main{
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 24px;
 }
-
-.img-scrol{
+.img-scrol {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
     gap: 8px;
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
 }
 .new-story, .btn-story {
     width: 110px;
     height: 152px;
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
     background-color: azure;
     flex: 0 0 110px;
 }
@@ -46,9 +38,9 @@ div.btn-story{
     gap: 24px;
 }
 .new-post{
-    width: 100%;
-    border-radius: var(--border-radios);
-    flex: 1;
+    /* width: 100%; */
+    border-radius: var(--border-radius);
+    /* flex: 1; */
 }
 .img-post-area{
     margin: 0 12px;
@@ -58,10 +50,9 @@ div.btn-story{
 textarea[name="new"]{
     width: 100%;
     height: 96px;
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
     margin-left: 12px;
     border: 1px solid;
-    /* padding-left: 14px; */
 }
 span.incluir{
     font-weight: 500;
@@ -72,7 +63,6 @@ span.incluir{
     padding-top: 12px;
     display: inline-flex;
     gap: 8px;
-    /* align-items: flex-start; */
     padding-bottom: 34px;
 }
 .btn{
@@ -101,7 +91,7 @@ span.incluir{
     display: inline-block;
 }
 .friend-post{
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
 }
 .post-friends{
     margin: 12px;
@@ -131,14 +121,14 @@ hr.style-p {
     /* padding: 12px; */
 }
 .img-new-post{
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
 }
 
 /* || Barra de comentário */
 input[name="comentario"]{
     width: 100%;
     height: 48px;
-    border-radius: var(--border-radios);
+    border-radius: var(--border-radius);
     margin-left: 12px;
     border: 1px solid;
     /* padding-left: 14px; */

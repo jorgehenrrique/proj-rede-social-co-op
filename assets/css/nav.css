@@ -33,12 +33,12 @@ nav{
     gap: 0.5rem;
     align-self: center;
 }
-.buscar{
+.buscarP{
     border: var(--color-vermelho-claro) solid 1px;
     border-radius: var(--border-radius);
 }
 .icone{
-    padding-left: 14px;
+    padding-left: 15px;
     background-color: var(--color-branco);
 }
 .col-interna-2{
@@ -58,6 +58,7 @@ nav{
     height: 48px;
     border: var(--color-vermelho-claro) solid 1px;
     border-radius: var(--border-radius);
+    transition: all .2s;
 }
 .noti-ico{
     position: relative;
