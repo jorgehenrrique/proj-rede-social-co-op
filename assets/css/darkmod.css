@@ -21,9 +21,9 @@
     div.perfil{
         background-color: var(--color-roxo-claro);
     }
-    div.main{
+    /* div.main{
         background-color: var(--color-roxo-claro);
-    }
+    } */
     div.profile_all{
         background-color: var(--color-roxo-claro);
     }
@@ -35,5 +35,11 @@
     }
     div hr.style {
         border: var(--color-verde-neon) 1px solid;
+    }
+    div.new-post{
+        background-color: var(--color-roxo-claro);
+    }
+    div.friend-post{
+        background-color: var(--color-roxo-claro);
     }
 }

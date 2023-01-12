@@ -32,9 +32,16 @@ main{
 .perfil{
     background-color: var(--color-branco);
 }
-.main{
+/* .main{
+    background-color: var(--color-branco);
+} */
+.new-post{
     background-color: var(--color-branco);
 }
+.friend-post{
+    background-color: var(--color-branco);
+}
+
 .profile_all{
     background-color: var(--color-branco);
 }

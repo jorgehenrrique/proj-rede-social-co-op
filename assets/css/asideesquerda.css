@@ -85,14 +85,9 @@ hr.style {
     border: var(--color-vermelho-claro) 1px solid;
 }
 
-/*DAQUI PARA BAIXO É O QUE FALTA FAZER E COLOCAR ESSAS CLASSES, OU ALTERALAS*/
-/* ESSA É A PARTE A BAIXO DA LINHA <hr> */
-
-.config{ /*COLOCA A CLASSE: config , AQUI PARA VER COMO FICA*/
+.config{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-evenly;
     width: 80%;
     gap: 8px;
     margin-bottom: 25px;
@@ -113,6 +108,3 @@ hr.style {
     background-color: var(--color-amarelo-claro);
     transition: all .5s;
 }
-
-
-
