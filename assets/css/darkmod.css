@@ -33,7 +33,7 @@
     div.perfil .profile-img-master{ /*Foto perfil*/
         border: var(--color-verde-neon) 2px solid;
     }
-    div hr.style {
+    div hr.style , div hr.style-p {
         border: var(--color-verde-neon) 1px solid;
     }
     div.new-post{

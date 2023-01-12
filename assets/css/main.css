@@ -124,7 +124,7 @@ hr.style-p {
     width: 100%;
     margin-top: 12px;
     border-style: inset;
-    border: var(--color-bkg-orange) 1px solid;
+    border: var(--color-vermelho-claro) 1px solid;
 }
 .new-post-image{
     margin: 12px;
