@@ -72,4 +72,12 @@ main{
     position: fixed;
     right: 40px;
     bottom: 24px;
+    border-radius: 50%;
+    transition: all 1s;
+    opacity: 40%;
+    cursor: pointer;
+}
+.img-top:hover{
+    opacity: 100%;
+    transition: all .5s;
 }
