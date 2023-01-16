@@ -10,7 +10,7 @@ div.amigos{
 .profile_all{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
     gap: 24px;
     border-radius: var(--border-radius);
@@ -21,6 +21,7 @@ div.amigos{
     flex-direction: row;
     gap: 8px;
     align-items: center;
+    justify-content: space-around;
 }
 .image_profile img{
     width: 48px;
@@ -40,6 +41,7 @@ div.amigos{
 .botao_p:hover{
     background-color: var(--color-amarelo-claro);
     transition: all .5s;
+    cursor: pointer;
 }
 .name_art{
     display: flex;
@@ -86,5 +88,6 @@ h6.f-name{ /*Reutilizado nos posts*/
     width: 90%;
     margin-bottom: 16px;
     height: 48px;
+    align-self: center;
 }
 

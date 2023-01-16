@@ -107,4 +107,5 @@ hr.style {
 .config_box:hover{
     background-color: var(--color-amarelo-claro);
     transition: all .5s;
+    cursor: pointer;
 }

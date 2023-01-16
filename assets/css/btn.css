@@ -87,6 +87,7 @@ input:focus{
 .btn_amarelo:hover{
     background-color: var(--color-verde-neon);
     transition: all .2s;
+    cursor: pointer;
 }
 .btn_amarelo:active{
     background-color: var(--color-vermelho-claro);
