@@ -15,13 +15,14 @@ div.amigos{
     gap: 24px;
     border-radius: var(--border-radius);
     height: fit-content;
+    padding: 0 16px;
 }
 .profile_group{
     display: flex;
     flex-direction: row;
     gap: 8px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .image_profile img{
     width: 48px;
@@ -84,8 +85,7 @@ h6.f-name{ /*Reutilizado nos posts*/
     color: #4d4d4d;
 }
 .padd{
-    padding: 0 16px;
-    width: 90%;
+    width: 100%;
     margin-bottom: 16px;
     height: 48px;
     align-self: center;
