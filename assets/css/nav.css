@@ -74,9 +74,6 @@ nav{
 }
 
 @media screen and (min-width: 0px) { /*Tela Mobile*/
-    /* .hiddenP{
-        display: none;
-    } */
     .hidden{
         display: none;
     }
@@ -86,10 +83,4 @@ nav{
     .hidden{
         display: initial;
     }
-}
-
-@media screen and (min-width: 992px) { /*Tela Tablet*/
-    /* .hidden{
-        display: initial;
-    } */
 }
