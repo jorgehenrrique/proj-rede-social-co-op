@@ -92,3 +92,6 @@ input:focus{
     background-color: var(--color-vermelho-claro);
     transition: all .2s;
 }
+input::placeholder ,textarea::placeholder{
+    color: var(--color-vermelho-escuro);
+}

@@ -34,6 +34,12 @@ div.amigos{
     height: 32px;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: var(--color-cinza-claro);
+    border-radius: var(--border-radius);
+}
+.botao_p:hover{
+    background-color: var(--color-amarelo-claro);
+    transition: all .5s;
 }
 .name_art{
     display: flex;
