@@ -139,3 +139,6 @@ input[name="comentario"]{
     padding-top: 12px;
     display: flex;
 }
+.profile-img{
+    border-radius: var(--border-radius);
+}

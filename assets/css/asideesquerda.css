@@ -1,17 +1,15 @@
 
 /* || Aside esquerda */
-main div.aside-esquerda{
+.aside-esquerda{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 
-    min-width: 200px;
-    /* max-height: 850px; */
+    min-width: 230px;
     height: fit-content;
     border-radius: var(--border-radius);
     overflow: hidden;
-
 }
 .back-img{ /*Background perfil*/
     width: 100%;
@@ -31,7 +29,6 @@ main div.aside-esquerda{
     height: 128px;
     border-radius: var(--border-radius);
     z-index: 0;
-    /* left: 33.33%; */
 }
 
 h1.name{
@@ -81,7 +78,6 @@ hr.style {
     width: 90%;
     margin: 24px 0;
     border-style: inset;
-    /* border-width: 1px; */
     border: var(--color-vermelho-claro) 1px solid;
 }
 
@@ -93,7 +89,6 @@ hr.style {
     margin-bottom: 25px;
 }
 .config_box{
-    /* height: 48px; */
     display: flex;
     gap: 8px;
     background-color: var(--color-cinza-claro);
