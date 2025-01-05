@@ -17,7 +17,7 @@
 * Deve ser aplicado as configurações para os estados dos componentes, como Hovers, Focus e etc.
 
 * Utilizar reuso no CSS sempre que possível, como nos padrões para os botões, textos, inputs e etc.
-
+ UzWUVcd12S
 * Importar as fontes do google fontes.
 
 
