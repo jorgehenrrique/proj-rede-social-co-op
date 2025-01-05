@@ -2,7 +2,7 @@
  
 ## Requisitos do projeto
 
-### Obrigatórios qUgtZDAstw
+### Obrigatórios
 
 * Deve ter a responsividade mínima para os três tamanhos, conforme o Figma.
 
