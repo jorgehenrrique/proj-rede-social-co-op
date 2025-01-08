@@ -32,4 +32,4 @@
 
 <img src="assets/requisitos/desktop.png">
 <img src="assets/requisitos/tablet.png">
-<img src="assets/requisitos/mobile.png">
+<img src="assets/requisitos/mobile.png"> PZxlauqw9Q
